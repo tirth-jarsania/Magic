@@ -1,0 +1,34 @@
+#root{
+    height: 600px;
+    width: 600px;
+}
+
+#header-wrapper{
+    height: 20%;
+    width: 100%;
+}
+
+h1,h2{
+    font-weight:bold;
+    color: tomato;
+    text-align: center;
+    border-bottom: 1px solid;
+}
+
+#item{
+    box-shadow: 0 5px 10px gray;
+    width: 80%;
+    margin-left: 10%;
+}
+
+#item:focus{
+    outline: none;
+}
+
+button{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    height: 40px;
+    width: 80px;
+}
